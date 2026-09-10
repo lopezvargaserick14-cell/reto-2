@@ -1,7 +1,5 @@
 .calendar-container{
     width: 600px;
-    font-family: sans-serif;
-    
 }
 .calendar-grid{
     display: grid;
