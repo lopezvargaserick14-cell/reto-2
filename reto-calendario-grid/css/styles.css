@@ -1,0 +1,22 @@
+.calendar-container{
+    width: 600px;
+    font-family: sans-serif;
+    
+}
+.calendar-grid{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    
+}
+.day-header{
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f2f5;
+}
+.day-cell{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+}
